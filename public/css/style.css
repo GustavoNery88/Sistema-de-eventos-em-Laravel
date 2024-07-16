@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    background-color: rgb(215, 215, 224);
+    width: 100%;
+    height: 60px;
+}
+
+.cabecalho a {
+    color: black;
+    font-weight: 700;
+}
+
+.cabecalho a:hover {
+    color: rgb(98, 98, 98);
+}
+
+.content {
+    margin: 30px;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    padding: 50px;
+}
+
+.formulario-pesquisa {
+    width: 50vw;
+}
+
+.eventos-container {
+    margin-top: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1200px;
+}
+
+.offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.evento-criacao-formulario {
+    width: 40%;
+    padding: 10px;
+}
+
+.alert {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-sobre{
+    margin-top: 30px;
+}
+
+.botao-confirmar{
+    margin-bottom: 20px;
+}
+
+.lista-itens{
+    list-style: none;
+    padding-left: 0;
+}
+
+.dashboard{
+    margin-bottom: 50px;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .card {
+        flex: 1 1 calc(50% - 16px);
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex: 1 1 100%;
+    }
+}
