@@ -2,7 +2,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-         "build": "composer install --no-dev --optimize-autoloader && php artisan config:cache && php artisan route:cache && php artisan view:cache"
+        "dev": "vite",
+        "build": "vite build"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
